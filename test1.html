@@ -7,40 +7,56 @@
 
 
 <style> 
-    /* Reset some default styles */
-  body, html {
-    margin: 0;
-    padding: 0;
-  }
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
-  /* Basic styling */
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    background-color: aqua;
-  }
+/* Basic styling */
+.experience {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  .image {
-    padding-right: 20px;
-    float: left;
-  }
+.experience-details {
+  float: left;
+  width: 30%;
+  padding-right: 20px;
+}
 
-  .image img {
-    width: 160px;
-    height: 160px;
-  }
+.experience-details h3 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
 
-  .text h2 {
-    font-size: 28px;
-    margin: 0 0 10px 0;
-  }
+.experience-details p {
+  margin: 0;
+  font-size: 16px;
+}
 
-  .text p {
-    font-size: 16px;
-    margin: 0 0 10px 0;
-  }
+.experience-image {
+  float: right;
+  width: 15%;
+  text-align: right;
+}
+
+.experience-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.experience-description {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 </style>
 
 
@@ -49,17 +65,24 @@
 </head>
 <body>
 
-  <div class="container">
-    <div class="image">
-      <img src="https://picsum.photos/512" alt="Profile Image">
+
+  <div class="experience">
+    <div class="experience-details">
+      <h3>Company Name</h3>
+      <p>Location</p>
+      <p>Dates Worked</p>
     </div>
-    <div class="text">
-      <h2>John Doe</h2>
-      <p>Ph.D. Candidate in Computer Science</p>
-      <p>Research interests: Artificial Intelligence, Machine Learning, Natural Language Processing</p>
-      <p>Contact: john.doe@email.com</p>
+    <div class="experience-image">
+      <img src="https://picsum.photos/512" alt="Company Logo">
+    </div>
+    <div class="clear"></div>
+    <div class="experience-description">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+      </p>
     </div>
   </div>
+
 
 </body>
 </html>
