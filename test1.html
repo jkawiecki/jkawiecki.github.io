@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test1 Generated Site</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="scripts.js"></script>
+  <title>Research Portfolio</title>
+
+
+<style> 
+    /* Reset some default styles */
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Basic styling */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    background-color: aqua;
+  }
+
+  .image {
+    padding-right: 20px;
+    float: left;
+  }
+
+  .image img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .text h2 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+  }
+
+  .text p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+</style>
+
+
+
+
 </head>
-
 <body>
-  <header>
-    <nav>
-      <div class="container">
-        <h1>ChatGPT Generated Site</h1>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="hero">
-      <div class="container">
-        <h2>Hello, I'm Your Name</h2>
-        <p>A passionate developer with a focus on building meaningful projects.</p>
-      </div>
-    </div>
-  </header>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Write a brief introduction about yourself, your skills, and experiences here.</p>
+  <div class="container">
+    <div class="image">
+      <img src="https://picsum.photos/512" alt="Profile Image">
     </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <!-- Add your project showcases here -->
-      <!-- Example:
-      <div class="project">
-        <img src="project-image.jpg" alt="Project 1">
-        <h3>Project Title</h3>
-        <p>Project description goes here.</p>
-      </div>
-      -->
+    <div class="text">
+      <h2>John Doe</h2>
+      <p>Ph.D. Candidate in Computer Science</p>
+      <p>Research interests: Artificial Intelligence, Machine Learning, Natural Language Processing</p>
+      <p>Contact: john.doe@email.com</p>
     </div>
-  </section>
+  </div>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <!-- Add your contact information or a contact form here -->
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
-  </footer>
 </body>
-
 </html>

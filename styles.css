@@ -219,3 +219,20 @@ body {
   .blog-entry .meta > div a {
     font-size: 15px;
     color: #8c8c8c; }
+  
+.r_entry {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.r_image {
+  padding-right: 5%;
+  float: left;
+}
+
+.r_image img {
+  width: 180px;
+  height: 180px;
+}
