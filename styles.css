@@ -259,3 +259,8 @@ body {
   clear: both;
 }
 
+.img-fluid {
+  object-fit: fill;
+  width: 55%;
+  height: 55%;
+}
